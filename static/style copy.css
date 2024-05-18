@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.box{
+    display: flex;
+}
+#p{
+    nav-down: 1200px;
+    margin-left: 22.5%;
+    margin-right: auto;
+    width: 50%; 
+}
+
+  
+
+.wrapper {
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    margin-left: 30vw;x
+}
+
+.main-col, .sidebar-col {
+    width: 50vw;
+    margin: 1rem;
+}
+
+
+
+.image-wrapper {
+    display: flex;
+}
+.image-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}
+.image-right {
+    position: absolute;
+    z-index: -99;
+    top: 0;
+    margin-left: 70vw;
+}
